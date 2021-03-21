@@ -20,8 +20,7 @@ Nesta primeira parte do desafio, você deverá:
 * explicar e detalhar o porquê escolheu esses cenários. 
 
 
-Dica: **Escolher mais de uma plataforma renderá mais pontos para sua nota**
-Dica: **Escrever mais cenários de teste renderá mais pontos para sua nota**
+Criei os cenarios na plataforma web, por nao ter um apk para teste, mas o desenvolvimento em WEB, ou mobile e muito parecido a difereciação da somente no modo de designer em mobile utilizamos o apium com android estudio.  
 
 
 ### 2. Automação de testes de interface de usuário
@@ -29,6 +28,16 @@ Dica: **Escrever mais cenários de teste renderá mais pontos para sua nota**
 Nesta etapa, você precisa criar uma suite de testes automatizada para pelo menos 3 dos cenários que foram escritos na primeira parte deste desafio, em suas respectivas plataformas.
 * explicar e detalhar as decisões que você tomou (exemplo: o porquê escolheu determinada linguagem de programação, framework etc). 
 * Em seu README, detalhar como realizar as configurações necessárias para rodar o projeto em nossa máquina local.
+
+Para a automação de teste de interface utilizei o selenium webDrive com java, por ser um poder uma tecnologia software livre e ter bastante informação na comunidade, e também bastante utilizada por grandes empresas por não necessitar de adquirir licenças, e esta ferramenta e pode ser adaptada conforme a necessidade de cada empresa. 
+Por ser uma seleção para automação mobile, e não ter um “apk” disponível para realizar o teste no ambiente de produção escolhi a solução web. Utilizando o sistema de produção com meus dados pessoais para mapear as telas.
+Para a criação dos cenários de teste, criei os cenários com as soluções grátis da empresa disponnivel, conforme o meu perfil de utilização. 
+Para rodar o teste implementei a variável da feature, e no código está como variável caso necessite utilizar um datapoll somente implementar e incluir na variável. Utilizei do chrome driver 89. Para o desenvolvimento do teste. 
+Favor baixar o crome driver em https://chromedriver.chromium.org/downloads, conforme o seu chrome instalado em computador. 
+E Criar uma pasta WEBDRIVE.BIN em seu computador se for Windows em c: ou no /opt caso seja Linux. 
+
+OBS: Consegui implementar somente dois cenários automatizados e criei a runner suíte com esses dois cenarios, pois fui barrado na segurança logica da empresa. E não consegui para utilizar aplicação de forma automatizada. 
+
 
 Dica: **Fazer testes automatizados em plataformas diferentes (Web, Android ou iOS) renderá mais pontos para sua nota**
 
